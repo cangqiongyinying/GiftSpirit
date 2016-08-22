@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/open_text_item_iamge"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:src="@drawable/def_loading"/>
+    <TextView
+        android:id="@+id/open_text_item_gname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/open_text_item_iamge"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/open_text_item_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/open_text_item_gname"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@id/open_text_item_gname"/>
+    <TextView
+        android:id="@+id/open_text_item_texttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/open_text_item_gname"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/g_biao"
+        android:textColor="@color/colorBtn"/>
+    <Button
+        android:id="@+id/open_text_item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorBtn"
+        android:textColor="@color/colorText"
+        android:text="查看"/>
+</RelativeLayout>

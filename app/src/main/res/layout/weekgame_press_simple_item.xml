@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/week_press_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/def_loading"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/week_press_item_image"
+        android:background="#669B9B9B">
+        <TextView
+            android:id="@+id/week_press_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/week_press_icon_image"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/def_head"/>
+    </RelativeLayout>
+
+</RelativeLayout>

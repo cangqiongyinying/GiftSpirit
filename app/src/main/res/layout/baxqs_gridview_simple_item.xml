@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/bdxqs_child_gridView_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/bdxqs_child_gridView_gname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="下载"
+        android:textSize="12sp"
+        android:focusable="false"
+        android:background="@color/colorBtn"
+        android:textColor="@color/colorText"/>
+</LinearLayout>

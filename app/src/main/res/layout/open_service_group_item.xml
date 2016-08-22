@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/open_group_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#669b9b9b"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorBtn"
+        android:drawableLeft="@drawable/g_biao"
+        android:text="测试"/>
+</LinearLayout>
